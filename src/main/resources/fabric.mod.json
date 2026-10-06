@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "automine",
+  "version": "${version}",
+  "name": "Mayank's AutoMiner v2",
+  "description": "Client-side auto miner. Use /automine <block> [amount].",
+  "authors": ["Mayank"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.automine.AutoMineMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
